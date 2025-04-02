@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Home.css'
-import logo from './IPL.jpeg'
+
 import AdComponent from '../../adcomponent/Adcomponent';
 import { useNavigate } from 'react-router-dom';
 
