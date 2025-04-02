@@ -1,0 +1,79 @@
+.main-container{
+   background: url(./back.svg);
+    height:100%;
+    width: 100%;
+    background-repeat: repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+.main-container{
+    margin-top: 100px;
+    background: url(./back2.svg);
+     height:100%;
+     width: 100%;
+     background-repeat: repeat;
+     background-size: contain;
+    
+     
+} 
+.card{
+    
+    width: 320px;
+    height: 240px;
+    background-color: white;
+    border: 1px solid rgba(119, 117, 117, 0.571);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 20px 20px;
+    padding: 30px 30px;
+    
+    
+}
+.teamLogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    
+
+}
+.time{
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.vs{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.img{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.title{
+    color: gray;
+    text-align: center;
+
+}
+.teamName{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.score{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.status{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}

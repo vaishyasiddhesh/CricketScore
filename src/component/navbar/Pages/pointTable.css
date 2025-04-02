@@ -1,0 +1,51 @@
+.points-table-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.top-team {
+    background-color: #d4edda !important; /* Light Green for Top Teams */
+    font-weight: bold;
+}
+
+.bottom-team {
+    background-color: #f8d7da !important; /* Light Red for Last Team */
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    table {
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 6px;
+    }
+  }
